@@ -32,10 +32,10 @@ console.log(well(['good', 'bad', 'bad', 'bad', 'bad', 'good', 'bad', 'bad', 'goo
 
 /**
  * Yesenias pseudo code
- * I have an array and need to check if it has good or bad news
- * I will iterate through the array and if 'good' appears one or twice return 'Publish';
- * if 2 or more 'good' return 'I smell a series
- * else reurn 'Fail!'
- * 
+Iterate through the array and filter the word 'good'
+use ternary to return:
+if the word appears once or twice return 'Publish!'
+if more than twice return 'I smella series!'
+if none , return 'Fail!'
 */
 
