@@ -8,5 +8,6 @@ console.log(none([1,2,3,4,5],function(item){ return item > 4 })) //, false)
 
 /**
  * Yesis pseudo code
- * check if some of the elements in arr are true to function
+ * check if none of the elements in arr are true to function
+ * if some are return true
  */
