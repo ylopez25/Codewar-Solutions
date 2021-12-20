@@ -33,8 +33,8 @@ console.log(strangeMath(15, 15)) // 7);
 
 /**
  * New and improved Pseudo
- * Create an array starting with 1, with length of less than and equal to n because n is inclusive
+ * Create a loop starting with 1, with length of less than or equal to n because n is inclusive
  * push the numbers into the array
- * sort the array in lexicographically
- * loop through sorted array and find the index of k + 1 because the index will give you index but we want the position
+ * sort the array lexicographically
+ * loop through sorted array and find the index of k + 1 because we want the position not the index 
  */
