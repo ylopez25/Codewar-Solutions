@@ -4,6 +4,7 @@ function replaceAll(input, find, replace) {
   let newStr = "";
   for(let i =0; i < input.length; i++) {
     if(input.slice(i, i+find.length) == find) {
+        console.log(input.slice(i, i + find.length))
       newStr += replace;
       i += find.length -1 
     }else {
