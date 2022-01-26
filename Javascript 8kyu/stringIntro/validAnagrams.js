@@ -4,6 +4,8 @@ let newS = s.split('').sort().join('');
 let newT = t.split('').sort().join('');
 return (newS === newT);
 };
+
+
 console.log(isAnagram('anagram', 'nagaram'))
 console.log(isAnagram('rat', 'cat'))
 
