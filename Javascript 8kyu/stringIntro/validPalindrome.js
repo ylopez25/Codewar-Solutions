@@ -1,11 +1,27 @@
-var isPalindrome = function(s) {
-    // let palindrome = s.split(' ').join().replace(/[^A-Za-z0-9]/g, "").toLowerCase().split('');
-    // return palindrome.join() === palindrome.reverse().join()
-let palindrome = s.replace(/\W/g, '').split('').reverse().join('').toLowerCase();
-console.log(palindrome)
-return palindrome === palindrome.split('').reverse().join('')
+//Refactored
+// var isPalindrome = function (s) {
+//     const cleanString = s.replace(/\W/g, '').toLowerCase();
+//   console.log(cleanString)
+//     return cleanString === cleanString.split('').reverse().join('');
+//   }
+
+//two pointer solution
+const isPalindrome = (s) => {
+  s = s.replace(/[^A-Za-z0-9]/g, "").toLowerCase();
+  let left = 0;
+  let right = s.length - 1;
+
+  while (left <= right) {
+      if (s[left] !== s[right]) {
+          return false;
+        }
+        left++;
+        right--;
+  }
+  return true;
 };
 
-console.log(isPalindrome("A man, a plan, a canal: Panama"))
-console.log(isPalindrome('race a car'))
-console.log(isPalindrome("A man, a plan, a canal -- Panama"))
+console.log(isPalindrome("A man, a plan, a canal: Panama"));
+console.log(isPalindrome("race a car"));
+console.log(isPalindrome("A man, a plan, a canal -- Panama"));
+console.log(isPalindrome("hihih"));
