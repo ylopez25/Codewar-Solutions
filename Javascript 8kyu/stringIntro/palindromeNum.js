@@ -5,3 +5,9 @@ var isPalindrome = function(x) {
     };
 
 console.log(isPalindrome(121))
+
+/**
+ * don't convert it into str
+ * -use modulo
+ * -
+ */
