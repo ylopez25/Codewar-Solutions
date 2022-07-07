@@ -12,6 +12,8 @@ if(0 <= average && average < 60) {
 }else if (100 >= average && average > 90) {
     return 'A';
 }
+//best solution
+//  return s >= 90 ? "A" : s >= 80 ? "B" : s >= 70 ? "C" : s >= 60 ? "D" : "F"
   }
 
   console.log(getGrade(10,10,10))
