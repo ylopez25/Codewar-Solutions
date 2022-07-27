@@ -26,3 +26,16 @@ function twoSum(nums, target) {
 
 console.log(twoSum([1, 2, 4, 6], 3));
 console.log(twoSum([1, 2, 3, 4, 5, 6], 8));
+
+
+// var twoSum = function(nums, target) {
+//   let map ={};
+//       for(let i =0; i < nums.length; i++) {
+//           if(target - nums[i] in map) {
+//               return [map[target - nums[i]], i]
+//           }else {
+//               map[nums[i]] = i
+//           }
+//       }
+//       return []
+//   };
