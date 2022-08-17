@@ -15,10 +15,10 @@
 
 
 function toRange(arr) {
-    arr=Array.from(new Set(arr)).sort((a,b)=>a-b)
+    //arr=Array.from(new Set(arr)).sort((a,b)=>a-b);
     for(var i=0,r=[];i<arr.length;){
       var s=i
-      while(i<arr.length&&arr[i]+1==arr[i+1]) i++
+      while(i<arr.length && arr[i]+1==arr[i+1]) i++
       r.push(i==s?arr[i++]:arr[s]+"_"+arr[i++])
     }
     return r.join(",")
@@ -29,4 +29,7 @@ function toRange(arr) {
       for(var j=+a;j<=+b;j++) r.push(j)
     }
     return r
-  }
+}
+
+  
+  console.log(toRange([3,4,5,6,9])) // '3_6,9'
