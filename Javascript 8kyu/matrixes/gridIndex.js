@@ -1,3 +1,15 @@
+//o(n)
+function gridIndex(grid, indices) {
+  const numCols = grid[0].length;
+  let newArr =[];
+  for(let i =0; i < indices.length; i++) {
+  const row = Math.floor((indices[i]-1)/numCols);
+    const col = (indices[i] -1) % numCols;
+    newArr.push(grid[row][col]);
+  }
+  return newArr.join('')
+}
+
 //my solution
 // function gridIndex(grid, indices) {
 //     let newArr = grid.join('').replace(/,/g, '');
