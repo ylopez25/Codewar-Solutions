@@ -7,6 +7,7 @@ function sockMerchant(n, ar) {
     console.log(obj)
     let pairs =0;
     for(let p in obj) {
+        console.log(p)
         pairs += Math.floor(obj[p]/2)
     }
     return pairs
