@@ -19,4 +19,4 @@ function sumXor (n) {
         return Math.pow(2, count)
 }
 
-console.log(sumXor(10) === 4)
+console.log(sumXor(4) === 4)
