@@ -18,9 +18,11 @@ var firstUniqChar = function(s) {
   const letterCounter = {}
 
 for(const letter of s) {
+  console.log(s)
   if(letterCounter[letter]) letterCounter[letter]++
   else letterCounter[letter] = 1
 }
+console.log(letterCounter)
 
 for( let i = 0; i < s.length; i++) {
   const stringLetter = s[i]
@@ -33,3 +35,5 @@ for( let i = 0; i < s.length; i++) {
 return -1
    
 };
+
+console.log(firstNonRepeated("leetcode"))

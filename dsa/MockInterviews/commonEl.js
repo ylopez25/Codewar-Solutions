@@ -25,3 +25,6 @@ function commonElements(arr1,arr2) {
     console.log(commonElements([1,2,3],[4,4]) === null)
     console.log(commonElements(['yesenia', 'colin'], ['yesenia']) === ['yesenia'])
     
+
+
+    
