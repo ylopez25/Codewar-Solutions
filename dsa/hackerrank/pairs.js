@@ -15,14 +15,10 @@
 // The time complexity of this approach is O(N²) as for N elements, we traverse the array linearly ( O(N) ). The space complexity is constant i.e- O(1) as we just create one variable to keep the count.
 
 function pairs (k,arr) {
-//we want iterate twice 
-//i will be at index 0
-// j will be at index 1
-//it will check abs diff of each and if it equalls k add to count
-let count =0;
+let count = 0;
 for(let i =0; i < arr.length;i++) {
     console.log(arr[i])
-    for(let j =i+1;j <arr.length;j++) {
+    for(let j =i+1; j <arr.length; j++) {
         if(Math.abs(arr[i] - arr[j]) === k) {
             count++
         }
