@@ -14,3 +14,5 @@ for(let i=0; i < arr.length; i++) {
     console.log(secSum, 'sec')
 }
 }
+
+console.log(diagonalDifference([[2,3],[4,3],[5,8]]))
