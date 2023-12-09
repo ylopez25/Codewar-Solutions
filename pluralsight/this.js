@@ -27,6 +27,8 @@ function testingArrayMethods(arr) {
     console.log(update) // spread makes a copy => 
     let update2= Array.of(exArr)
     console.log(update2) // arr of arr => [[3,4,5]]
+    let filter = exArr.filter(el => el !== 5);
+    console.log(filter) // returns arr that meets condition
 return max
 }
 console.log(testingArrayMethods([1,2,3]))
