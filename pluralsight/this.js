@@ -29,6 +29,8 @@ function testingArrayMethods(arr) {
     console.log(update2) // arr of arr => [[3,4,5]]
     let filter = exArr.filter(el => el !== 5);
     console.log(filter) // returns arr that meets condition
+    let arrMap = exArr.map(el => el*2);
+    console.log(arrMap)
 return max
 }
 console.log(testingArrayMethods([1,2,3]))
