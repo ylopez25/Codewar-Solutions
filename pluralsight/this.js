@@ -31,6 +31,8 @@ function testingArrayMethods(arr) {
     console.log(filter) // returns arr that meets condition
     let arrMap = exArr.map(el => el*2);
     console.log(arrMap)
+    let find = exArr.find(el => el >2);
+    console.log(find)
 return max
 }
 console.log(testingArrayMethods([1,2,3]))
