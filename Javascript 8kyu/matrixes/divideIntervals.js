@@ -36,6 +36,4 @@ return minHeap.size();
 
 console.log(minGroups([[5,10],[6,8],[1,5],[2,3],[1,10]]))
 
-console.log(minGroups([[6,10],[6,7],[9,5],[2,31],[13,10]]))
-
-console.log(minGroups([[53,10],[6,83],[1,35],[2,33],[1,130]]))
+console.log(minGroups([[6,10],[6,7],[9,5],[2,31],[13,10]])
