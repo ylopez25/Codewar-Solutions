@@ -34,5 +34,5 @@ intervals.forEach((interval) => {
 return minHeap.size();
 };
 
-console.log(minGroups([[5,10],[6,8],[1,5],[2,3],[1,10]]))
+
 
