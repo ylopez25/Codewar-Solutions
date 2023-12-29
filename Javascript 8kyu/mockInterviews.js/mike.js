@@ -48,4 +48,3 @@ function mostFrequentChar(str) {
   console.log(mostFrequentChar("abacaba") === 'a')
   console.log(mostFrequentChar("xyyXz") === 'x')
   console.log(mostFrequentChar("") === '')
-  console.log(mostFrequentChar("a b a b a") === 'a')
