@@ -21,4 +21,4 @@ function commonElements(arr1,arr2) {
     }
     
     console.log(commonElements([2,3,4],[3,4,5]));
-    console.log(commonElements([1,2,3,3], [3,4,6]) === [3]);
+    
